@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Online</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            background-color: #f2f2f2; /* Cinza claro */
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #fff; /* Branco */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #004080; /* Azul escuro */
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #5c5c5c; /* Cinza médio */
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        ul, ol {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #004080; /* Azul escuro */
+            text-decoration: underline;
+        }
+
+        img {
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        hr {
+            border-color: #ccc; /* Cinza claro */
+            margin: 40px 0;
+        }
+
+        span {
+            font-style: italic;
+            color: #666; /* Cinza */
+        }
+
+        .section-title {
+            color: #004080; /* Azul escuro */
+            border-bottom: 2px solid #004080; /* Azul escuro */
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .section-title::before {
+            content: '';
+            position: absolute;
+            width: 20%;
+            height: 2px;
+            background-color: #004080; /* Azul escuro */
+            bottom: -5px;
+            left: 0;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+
+        .personal-info ul li {
+            margin-bottom: 10px;
+            color: #333; /* Preto */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="images/foto do perfil.jpg" width="250px" alt="Foto do Perfil">
+            </div>
+            <div class="col-md-8">
+                <h1 class="mb-4">Fernando Augusto de Oliveira</h1>
+                <p>&#10077; Estudante da Universidade de Vassouras RJ.</p>
+                <p><span>Vassouras</span>, <span>Rio de Janeiro</span> ⋅ <span>Brasil</span></p>
+                <p><a href="#contato">Informações de Contato</a></p>
+            </div>
+        </div>
+        <hr>
+        
+        <h2 class="section-title">Objetivo</h2>
+        <p>Meu objetivo é aplicar minhas habilidades para contribuir de forma significativa para uma empresa dinâmica, onde possa continuar aprendendo, crescendo profissionalmente e colaborando com uma equipe talentosa para alcançar metas desafiadoras.</p>
+
+        <h2 class="section-title">Experiência CLT</h2>
+        <ol>
+            <li>Bluecom - Operador de Produção (Máquina de Fibra Ótica e Loose tube)</li>
+        </ol>
+
+        <h2 class="section-title">Educação</h2>
+        <ul>
+            <li>Ensino Médio completo</li>
+            <li>Informática Básica - VN CURSOS</li>
+            <li>Gestão de Equipe</li>
+            <li>Manutenção de Computadores</li>
+            <li>Engenharia de Software - Universidade de Vassouras - RJ (Cursando...)</li>
+        </ul>
+
+        <h2 class="section-title">CNH</h2>
+        <ul>
+            <li>Categoria A-B</li>
+        </ul>
+
+        <h2 class="section-title">Competências e Habilidades</h2>
+        <ul>
+            <li>Trabalho em Equipe</li>
+            <li>Bom Relacionamento</li>
+            <li>Facilidade para Aprender</li>
+            <li>Compromisso</li>
+        </ul>
+
+        <h2 id="contato" class="section-title">Informações de Contato</h2>
+        <ul class="contact-info">
+            <li>Telefone: (24) 99220-6456</li>
+            <li>E-mail: fernandoaugusto227800@gmail.com</li>
+            <li>Endereço: Rua - José Francisco N:250 Bairro: Santa Amália</li>
+            <li><a href="https://github.com/Fernando22780">GitHub</a></li>
+        </ul>
+
+        <h2 class="section-title">Informações Pessoais</h2>
+        <ul class="personal-info">
+            <li>Sexo: Masculino</li>
+            <li>Idade: 21 anos</li>
+            <li>Nacionalidade: Brasileiro</li>
+        </ul>
+    </div>
+</body>
+</html>
